@@ -1,0 +1,16 @@
+.title {
+  font-style: italic;
+  font-weight: 800;
+}
+
+@media (width > 0) and (width <= 800px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (width > 800px) {
+  .title {
+    font-size: 60px;
+  }
+}
