@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -8,8 +8,70 @@
   <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
+<body class="page__body">
+  <header class="header page__header">
+    <div class="header__container">
+      <button class="header__burger" aria-label="открыть мень">
+        <img class="header__burger-img" src="images/burger.svg" alt="">
+      </button>
 
+      <img class="header__logo" src="images/logo.png" alt="Логотип" srcset="images/logo-2x.png 2x">
+
+      <nav class="nav header__nav">
+        <div class="nav__inner">
+          <button class="nav__close">
+            <img class="nav__close-img" src="images/close.svg" alt="">
+          </button>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">услуги</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">наши работы</a>
+            </li>
+            <li class="nav__item">
+              <a href="#reviews" class="nav__link">отзывы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="main page__main">
+    <h1 class="visually-hidden">Codeorder</h1>
+    <section class="top">
+      <div class="top__container">
+        <h2 class="visually-hidden">Описание</h2>
+        <div class="top__logo">
+          <img class="top__logo-img" src="images/top-logo.png" srcset="images/top-logo-2x.png 2x" alt="Логотип">
+        </div>
+        <p class="top__text">проект codeorder способствует молодым специалистам объединяться в команды по разработке
+          цифровых продуктов, а заказчикам реализовывать проекты по доступным ценам.</p>
+        <p class="top__contact">контакт модератора <a class="top__contact-link" href="tel:+79999999999">+79999999999</a></p>
+      </div>
+    </section>
+    <section class="services">
+      <div class="services__container">
+        <div class="services__left">
+          <h2 class="services__title">Оказываем услуги</h2>
+          <h3 class="services__title-list">Проект оказывает услуги по разработке:</h3>
+          <ul class="services__list">
+            <li class="services__item">сайтов</li>
+            <li class="services__item">логотипов</li>
+            <li class="services__item">мобильных приложений</li>
+            <li class="services__item">десктоп-приложений</li>
+          </ul>
+        </div>
+        <div class="services__right">
+          <img class="services__right-img" src="images/services.png" alt="" srcset="images/services-2x.png 2x">
+        </div>
+      </div>
+    </section>
+  </main>
   <script src="index.js"></script>
 </body>
 
