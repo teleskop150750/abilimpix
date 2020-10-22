@@ -12,17 +12,17 @@ const {
   watch,
 } = gulp;
 
-const styles = () => src('main.css')
+const styles = () => src('./styles/index.css')
   .pipe(postcss([
     importCSS,
     media,
     autoprefixer,
   ]))
   .pipe(rename('index.css'))
-  .pipe(dest('dist'));
+  .pipe(dest('./'));
 
 const watchFiles = () => {
-  watch('src/**/*.css', series(styles));
+  watch('./styles/**/*.css', series(styles));
 };
 
 exports.styles = styles;
