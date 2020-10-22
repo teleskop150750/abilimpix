@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recess-order"
+  ],
+  "rules": {
+    "color-hex-length": "long",
+    "declaration-colon-space-after": "always-single-line",
+    "declaration-empty-line-before": "never"
+  }
+}
