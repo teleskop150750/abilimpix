@@ -10,6 +10,7 @@
 </head>
 
 <body class="page__body">
+  <!-- header -->
   <header class="header page__header js-scroll">
     <div class="header__container">
       <button class="header__burger" aria-label="открыть мень">
@@ -18,6 +19,7 @@
 
       <img class="header__logo" src="images/logo.png" alt="Логотип" srcset="images/logo-2x.png 2x">
 
+      <!-- nav -->
       <nav class="nav header__nav">
         <div class="nav__inner">
           <button class="nav__close">
@@ -40,9 +42,12 @@
           </ul>
         </div>
       </nav>
+      <!-- /nav -->
     </div>
   </header>
+  <!-- /header -->
 
+  <!-- main -->
   <main class="main page__main js-scroll">
     <h1 class="visually-hidden">Codeorder</h1>
     <section class="top">
@@ -53,13 +58,17 @@
           <img class="top__logo-img" src="images/top-logo.png" srcset="images/top-logo-2x.png 2x" alt="Логотип">
         </div>
 
-        <p class="top__text">проект codeorder способствует молодым специалистам объединяться в команды по разработке
-          цифровых продуктов, а заказчикам реализовывать проекты по доступным ценам.</p>
+        <p class="top__text">
+          проект codeorder способствует молодым специалистам объединяться в команды по разработке
+          цифровых продуктов, а заказчикам реализовывать проекты по доступным ценам.
+        </p>
 
         <p class="top__contact">контакт модератора <a class="top__contact-link" href="tel:+79999999999">+79999999999</a>
         </p>
       </div>
     </section>
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
     <section class="services" id="services">
       <div class="services__container">
@@ -82,10 +91,12 @@
       </div>
     </section>
 
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
     <section class="works" id="works">
       <div class="works__container">
         <h2 class="title works__title">наши работы</h2>
-        
+
         <div class="slider-wrapper">
           <div class="slider-inner">
             <button class="swiper-button-main-prev"></button>
@@ -148,6 +159,8 @@
       </div>
     </section>
 
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
     <section class="reviews" id="reviews">
       <div class="reviews__container">
         <h2 class="title reviews__title">Отзывы</h2>
@@ -199,18 +212,18 @@
           </li>
         </ul>
 
-        <form action="" class="reviews__form">
-          <textarea name="commetn" class="reviews__form--textarea"></textarea>
+        <form class="reviews__form">
+          <textarea class="reviews__form--textarea" name="commetn" ></textarea>
           <button class="button reviews__form-submit" type="submit">написать отзыв</button>
         </form>
       </div>
     </section>
   </main>
+  <!-- /main -->
 
   <footer class="footer page__footer js-scroll">
     <div class="footer__container">
       <p class="footer__copyright">2020(c)</p>
-
       <p class="footer__copyright">автор сайта - Данил Сухинин</p>
     </div>
   </footer>
