@@ -59,7 +59,14 @@
   display: block;
   padding: 10px;
   font-size: 20px;
+  background-color: var(--color-white);
   border: 3px solid var(--color-black);
+}
+
+@media (width <= 800px) {
+  .input-works {
+    width: 270px;
+  }
 }
 
 @media (width > 800px) {
