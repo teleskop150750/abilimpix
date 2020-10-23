@@ -58,3 +58,13 @@
     margin-bottom: 30px;
   }
 }
+
+.services__right-img {
+  display: block;
+}
+
+@media (width > 0) and (width <= 800px) {
+  .services__right-img {
+    margin: 0 auto;
+  }
+}

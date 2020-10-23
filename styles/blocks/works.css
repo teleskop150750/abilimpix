@@ -12,6 +12,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
+
+  /* ceursor: pointer; */
+}
+
+.works__or {
+  font-size: 20px;
+  text-align: center;
 }
 
 .works__subtitle {
@@ -29,9 +36,13 @@
   padding: 10px;
   margin-bottom: 20px;
   font-size: 25px;
+  border: 3px solid var(--color-black);
 }
 
-.works__form-select {
-  padding: 10px;
-  font-size: 25px;
+.works__right{}
+
+.works__right-img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }

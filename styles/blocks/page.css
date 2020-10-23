@@ -10,3 +10,7 @@
   color: var(--color-black);
   background-color: var(--color-white);
 }
+
+.page__body--lock {
+  overflow: hidden;
+}
