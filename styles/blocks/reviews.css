@@ -10,6 +10,11 @@
   list-style: none;
 }
 
+.reviews__form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .reviews__form--textarea {
   display: block;
   width: 100%;
@@ -17,4 +22,8 @@
   margin-bottom: 30px;
   resize: none;
   border-radius: 30px;
+}
+
+.reviews__form-submit {
+  justify-self: end;
 }

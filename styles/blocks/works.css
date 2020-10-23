@@ -1,0 +1,37 @@
+.works__container {
+  max-width: 1130;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.works__left {
+  margin-bottom: 30px;
+}
+
+.works__links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.works__subtitle {
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.works__form {
+  display: grid;
+}
+
+.works__form-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.works__form-select {
+  padding: 10px;
+  font-size: 25px;
+}
