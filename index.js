@@ -36,3 +36,23 @@ const navClose = (e) => {
 
 btnNavOpen.addEventListener('click', navOpen);
 nav.addEventListener('click', navClose);
+
+const mySwiper = new Swiper('.swiper-container', {
+  init: false,
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-main-next',
+    prevEl: '.swiper-button-main-prev',
+  },
+});
+
+mySwiper.init();

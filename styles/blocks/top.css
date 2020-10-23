@@ -50,7 +50,8 @@
 }
 
 .top__contact {
-  font-size: 22px;
+  font-size: 21px;
+  font-style: italic;
 }
 
 .top__contact-link {

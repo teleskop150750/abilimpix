@@ -19,14 +19,14 @@
   border-radius: 100px;
 }
 
-@media (width <= 786px) {
+@media (width <= 800px) {
   .commetn__avatar-wrapper {
     width: 100px;
     height: 100px;
   }
 }
 
-@media (width > 786px) {
+@media (width > 800px) {
   .commetn__avatar-wrapper {
     width: 200px;
     height: 200px;
@@ -45,7 +45,7 @@
   text-align: center;
 }
 
-@media (width > 786px) {
+@media (width > 800px) {
   .commetn__figcaption {
     font-size: 33px;
   }
@@ -58,7 +58,7 @@
   text-indent: 20px;
 }
 
-@media (width > 786px) {
+@media (width > 550px) {
   .commetn__text {
     font-size: 33px;
   }

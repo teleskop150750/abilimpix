@@ -65,7 +65,9 @@
       <div class="services__container">
         <div class="services__left">
           <h2 class="title services__title">Оказываем услуги</h2>
+
           <h3 class="services__title-list">Проект оказывает услуги по разработке:</h3>
+
           <ul class="services__list">
             <li class="services__item">сайтов</li>
             <li class="services__item">логотипов</li>
@@ -82,29 +84,66 @@
 
     <section class="works" id="works">
       <div class="works__container">
-        <div class="works__left">
-          <h2 class="title works__title">Заказать работу</h2>
-          <p class="works__subtitle">автоизуйтесь на сайте</p>
-          <div class="works__links">
-            <a class="button works__link">вход</a>
-            <a class="button works__link">авторизация</a>
-          </div>
-          <p class="works__or">или</p>
-          <form action="" class="works__form">
-            <label class="works__subtitle" for="tel">оствьте контактный номер</label>
-            <input class="input-works works__form-input" type="tel" name="tel" id="tel">
-            <label class="works__subtitle" for="service">выберите тип услуг</label>
-            <div class="works__form-select-wrapper works__form-input">
-              <select class="input-works input-works--select" name="service" id="service">
-                <option class="works__form-option" value="mobile">мобильное приложение</option>
-                <option class="works__form-option" value="logo">логотип</option>
-                <option class="works__form-option" value="website">сайт</option>
-              </select>
+        <h2 class="title works__title">наши работы</h2>
+        
+        <div class="slider-wrapper">
+          <div class="slider-inner">
+            <button class="swiper-button-main-prev"></button>
+
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="slide__img" src="./images/slide-1.jpg" alt="">
+                  <p class="slide__text">сайт кафе андерсон</p>
+                </div>
+
+                <div class="swiper-slide">
+                  <img class="slide__img" src="./images/slide-1.jpg" alt="">
+                  <p class="slide__text">сайт кафе андерсон</p>
+                </div>
+
+                <div class="swiper-slide">
+                  <img class="slide__img" src="./images/slide-1.jpg" alt="">
+                  <p class="slide__text">сайт кафе андерсон</p>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
             </div>
-          </form>
+            <button class="swiper-button-main-next"></button>
+          </div>
         </div>
-        <div class="works__right">
-         <img class="works__right-img" src="images/headphones.png" alt="" srcset="images/headphones-2x.png 2x">
+
+        <div class="works__body">
+          <div class="works__left">
+            <h2 class="title works__title">Заказать работу</h2>
+            <p class="works__subtitle">автоизуйтесь на сайте</p>
+
+            <div class="works__links">
+              <a class="button works__link">вход</a>
+              <a class="button works__link">авторизация</a>
+            </div>
+
+            <p class="works__or">или</p>
+
+            <form action="" class="works__form">
+              <label class="works__subtitle" for="tel">оствьте контактный номер</label>
+              <input class="input-works works__form-input" type="tel" name="tel" id="tel">
+
+              <label class="works__subtitle" for="service">выберите тип услуг</label>
+              <div class="works__form-select-wrapper works__form-input">
+                <select class="input-works input-works--select" name="service" id="service">
+                  <option class="works__form-option" value="mobile">мобильное приложение</option>
+                  <option class="works__form-option" value="logo">логотип</option>
+                  <option class="works__form-option" value="website">сайт</option>
+                </select>
+              </div>
+            </form>
+          </div>
+
+          <div class="works__right">
+            <img class="works__right-img" src="images/headphones.png" alt="" srcset="images/headphones-2x.png 2x">
+          </div>
         </div>
       </div>
     </section>
@@ -112,6 +151,7 @@
     <section class="reviews" id="reviews">
       <div class="reviews__container">
         <h2 class="title reviews__title">Отзывы</h2>
+
         <ul class="reviews__comments">
           <li class="reviews__item">
             <article class="commetn reviews__commetn">
@@ -121,12 +161,14 @@
                 </div>
                 <figcaption class="commetn__figcaption">frolov89</figcaption>
               </figure>
+
               <p class="commetn__text">
                 заказывал сайт, всё сделали быстро, очень доволен проделанной работой. Выбрал этот проект поскольку
                 решил
                 поддержать молодых специалистов.
               </p>
             </article>
+
             <article class="commetn reviews__commetn">
               <figure class="commetn__figure">
                 <div class="commetn__avatar-wrapper">
@@ -134,11 +176,13 @@
                 </div>
                 <figcaption class="commetn__figcaption">алексей</figcaption>
               </figure>
+
               <p class="commetn__text">
                 решил заказать на данном сайте разработку мобильного приложения, всё отлично ребята управились в
                 заданные сроки. планирую продолжить сотрудничество для разработки логотипа.
               </p>
             </article>
+
             <article class="commetn reviews__commetn">
               <figure class="commetn__figure">
                 <div class="commetn__avatar-wrapper">
@@ -146,6 +190,7 @@
                 </div>
                 <figcaption class="commetn__figcaption">ivan17</figcaption>
               </figure>
+
               <p class="commetn__text">
                 Написал свой контактный номер и заказал лого, позвонили через день, рассказал о своих требованиях и
                 предпочтениях по заказу, всё сделали, сотрудничаю с ними уже второй месяц.
@@ -165,6 +210,7 @@
   <footer class="footer page__footer js-scroll">
     <div class="footer__container">
       <p class="footer__copyright">2020(c)</p>
+
       <p class="footer__copyright">автор сайта - Данил Сухинин</p>
     </div>
   </footer>

@@ -5,7 +5,7 @@
 }
 
 @media (width > 800px) {
-  .works__container {
+  .works__body {
     display: grid;
     grid-template-columns: 1fr minmax(200px, max-content);
     column-gap: 20px;
@@ -20,8 +20,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
-
-  /* ceursor: pointer; */
 }
 
 @media (width > 800px) {
