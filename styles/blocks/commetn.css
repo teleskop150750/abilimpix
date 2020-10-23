@@ -19,7 +19,7 @@
   border-radius: 100px;
 }
 
-@media (width > 0) and (width <= 786px) {
+@media (width <= 786px) {
   .commetn__avatar-wrapper {
     width: 100px;
     height: 100px;
@@ -41,11 +41,21 @@
 }
 
 .commetn__figcaption {
+  font-style: italic;
   text-align: center;
+}
+
+@media (width > 786px) {
+  .commetn__figcaption {
+    font-size: 33px;
+  }
 }
 
 .commetn__text {
   margin: 0;
+  font-style: italic;
+  line-height: 1.2;
+  text-indent: 20px;
 }
 
 @media (width > 786px) {

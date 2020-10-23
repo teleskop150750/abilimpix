@@ -1,12 +1,12 @@
 /* Top */
 
-@media (width > 0) and (width <= 550px) {
+@media (width > 550px) and (width <= 800px) {
   .top {
     padding-top: 50px;
   }
 }
 
-@media (width > 550px) {
+@media (width > 800px) {
   .top {
     padding-top: 100px;
   }
@@ -37,7 +37,7 @@
   text-indent: 20px;
 }
 
-@media (width > 0) and (width <= 550px) {
+@media (width <= 550px) {
   .top__text {
     font-size: 23px;
   }

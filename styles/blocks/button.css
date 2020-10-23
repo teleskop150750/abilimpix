@@ -2,7 +2,6 @@
   display: block;
   padding: 13px 15px;
   font: inherit;
-  font-size: 25px;
   color: var(--color-white);
   text-align: center;
   cursor: pointer;
@@ -14,4 +13,16 @@
 
 .button:hover {
   background-color: var(--color-jagger);
+}
+
+@media (width <= 800px) {
+  .button {
+    font-size: 16px;
+  }
+}
+
+@media (width > 800px) {
+  .button {
+    font-size: 25px;
+  }
 }

@@ -23,6 +23,7 @@
   margin-bottom: 30px;
   font-size: 20px;
   resize: none;
+  border: 3px solid var(--color-black);
   border-radius: 30px;
 }
 
